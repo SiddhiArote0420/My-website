@@ -1,0 +1,716 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.body{
+    width: 100%;
+    min-height: 200px;
+    background-color: #78e2f2;
+    display: flex;
+    margin: auto;
+}
+.main1{
+    background-color: transparent;
+    width: 50%;
+    min-height: 200px;
+}
+
+
+.main1 .headling{
+    font-size: 27px;
+    color: black;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    font-family: CursiveMonospace;
+}
+.main-form{
+    margin: auto;
+    width: 97%;
+    background-color: white;
+}
+.header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    width: 15%;
+    text-align: center;
+
+}
+.logo .C-name{
+    color: #0992C2;
+    font-size: 20px;
+    font-family: Cursive;
+    padding-top: 5px;
+}
+
+.menu{
+    width: 70%;
+    height: 30px;
+    padding-top: 10px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.menu ul li{
+    text-decoration: none;
+    color: black;
+     list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-family: Sans-serif;
+}
+.header button{
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: #0992C2;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+/*-------------------------------------------*/
+
+.start-img{
+    height: 400px;
+    width: 100%;
+    position: relative;
+
+    /* z-index: -1; */
+}
+.start-img .img{
+    height: 100%;
+    width: 100%;
+    /* z-index: 0; */
+}
+.start-img .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* position: relative; */
+}
+
+.start-img .textOnimg{
+    
+    height: auto;  
+    display: flex;
+   flex-direction: column; 
+   gap: 30px;              
+   background-color: transparent;
+   /* z-index: 1; */
+    position: absolute; 
+     /* position: absolute;    */
+    top: 10%;
+    left: 52%;
+    transform: translate(-50%, 0);
+}
+.textOnimg .first-text{
+    height: 50%;
+    width: 90%;
+    background-color: transparent;
+    display: flex;          
+    flex-direction: column; 
+}
+.textOnimg .first-text .big-text{
+    background-color: transparent;
+    color: white;
+    font-size: 60px;
+    font-family: Fantasy;
+    text-align: center;
+   
+}
+.textOnimg .first-text .imfo-text{
+    color: wheat;
+    text-align: justify;
+}
+.textOnimg .first-text a{
+    text-decoration: none;
+    margin: auto;
+    color: #0992C2;
+    font-weight: bold;
+}
+.second-text{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.second-text .chech-in{
+    color: white;
+    border-right: 3px solid white;
+    text-align: left;
+    width: 120px;
+    margin-right: 10px;
+}
+.second-text .chech-in p{
+    font-size: 19px;
+     
+}
+.second-text .chech-out{
+    color: white;
+    text-align: left;
+    width: 120px;
+    margin-left: 10px;
+    text-align: center;
+
+   
+}
+.second-text .chech-out p{
+    font-size: 19px;
+     
+}
+.second-text button{
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid black;
+    background-color: #0992C2;
+    margin-left: 20px;
+}
+/*------------*/
+
+.content{
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+}
+.content  .main-content{
+    min-height: 100px;
+    width: 90%;
+    background-color: transparent;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.content  .main-content .first-content{
+    width: 43%;
+    min-height: 50px;
+     margin-top: 20px;
+     text-align: justify;
+}
+.first-content .imgContent{
+     width: 80%;
+     height: 150px;
+     margin: auto;
+     margin-bottom: 10px;
+     
+}
+.first-content .imgContent img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.first-content h3{
+     width: 78%;
+    /* margin-top: 10px; */
+    margin: auto;
+    
+}
+.first-content p{
+    width: 78%;
+    margin: auto;
+    color: grey;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*-------*/
+.bed-img{
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+.bed-img .hotalImg{
+    height: 100%;
+    width: 100%;
+}
+.bed-img .hotalImg img{
+     height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.hotelRoom{
+    display: flex;
+    width: 80%;
+    position: absolute;
+    top: 15%;
+    left: 52%;
+    transform: translate(-50%, 0);
+    justify-content: space-between;
+}
+.hotelRoom .imgsbed{
+    height: 300px;
+    width: 43%; 
+    position: relative;   /* ADD */
+    overflow: hidden;
+}
+.hotelRoom .imgsbed img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.roomText{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: white;
+}
+
+.roomText h3{
+    margin: 10px 0 5px;
+    font-size: 25px;
+    /* width: 70%; */
+}
+
+.roomText p{
+    font-size: 13px;
+    line-height: 1.8;
+    /* width: 97%; */
+}
+.bookBtn{
+    position: absolute;
+    top: -150px;      /* CHANGE */
+    right: 1px;
+    height: 30px;
+    width: 120px;
+    background: white;
+    color: black;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+/*************/
+
+.stats-bar{
+  background: #08a6e8; /* blue background */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px 10px;
+  color: white;
+  text-align: center;
+}
+
+.stat h2{
+  font-size: 32px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.stat p{
+  margin-top: 6px;
+  font-size: 14px;
+  opacity: 0.9;
+}
+/*----------------------second part--*/
+
+.main2{
+    background-color:transparent;
+    width: 50%;
+    min-height: 200px;
+
+}
+.main2 .start2{
+    min-height: 200px;
+    width: 97%;
+    background-color: white;
+    margin: auto;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.main2 .start2 .div1{
+    width: 45%;
+    height: 100px;
+    
+}
+.main2 .start2 .div1 h2{
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+
+/* .div2{
+    display:flex;
+    justify-content: space-around;
+}
+.div2 .div2-1{
+    width: 36%;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+}
+.div2 .div2-1 .font{
+    width: 10%;
+
+}
+.div2 .div2-1 .font img{
+     font-size:small;
+     color: black;
+} */
+
+.div2 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.div2 .div2-1 {
+    width: 39%;
+    height: 100px;
+    display: flex;
+    align-items: center; /* vertically center children */
+    padding: 10px;       /* optional spacing */
+    gap: 10px;           /* space between font and content */
+}
+
+.div2 .div2-1 .font {
+    width: 60px;       /* fixed width for icons */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* center icon inside box */
+    margin-right: 10px;
+}
+
+.div2 .div2-1 .font img {
+    width: 32px;  /* adjust size of the image */
+    height: 32px;
+    object-fit: contain;
+    color: black;
+    
+}
+/*==================================================*/
+
+.main2-img{
+    height: 400px;
+    width: 97%;
+    position: relative;
+    margin: auto;
+}
+.main2-img .imgMain{
+    height: 100%;
+    width: 100%;
+}
+
+.main2-img .imgMain img{
+     height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.imgDining{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70%;
+    height: 280px;
+    display: flex;
+}
+.dining{
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+}
+.dining img{
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+}
+.textDining{
+     height: 100%;
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+}
+.textDining h1{
+    width: 90%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+   
+}
+/*-----------------------------*/
+/* .Reviews{
+    min-height: 400px;
+    width: 97%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.Review{
+    min-height: 450px;
+   
+    margin: auto;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.Review .head{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 60px;
+    
+}
+.Review .head h2{
+    margin-bottom: 5px;
+}
+.Review .head p{
+    font-size: 0.9em;
+}
+
+.client{
+    width: 30%;
+    background-color: #cfeaf7;
+    border-radius: 12px;
+    text-align: center;
+    min-height: 200px;
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+
+.client .img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: -80px auto 10px;
+    border: 4px solid white;
+    overflow: hidden;
+    background: white;
+}
+
+.client .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+.client h3{
+    margin: 10px 0 5px;
+}
+
+.client .role{
+    font-size: 0.85em;
+    color: #555;
+   
+}
+
+.client .quote{
+    font-size: 60px;
+    color: #08a6e8;
+    
+    height: 45px;
+}
+
+.client .big-text{
+    font-size: 1.0em;
+    color: #515151;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.client .rating{
+    color:#6cbef0;
+    font-size: 18px;
+} */
+
+/* ===== Review Section ===== */
+
+.Review{
+    min-height: 450px;
+    margin: auto;
+    background-color: white;
+    padding: 30px 0 40px;
+     width: 97%;
+}
+
+.Review .head{
+    width: 320px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.Review .head h1{
+    margin-bottom: 8px;
+}
+
+.Review .head p{
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* ===== Cards Wrapper ===== */
+
+.Reviews{
+
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+/* ===== Client Card ===== */
+
+.client{
+    width: 30%;
+    background-color: #dbe9f6;
+    border-radius: 18px;
+    text-align: center;
+    min-height: 200px;
+    position: relative;
+    padding: 55px 20px 25px;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== Profile Image ===== */
+
+/* .client .img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin: -45px auto 12px;
+    border: 4px solid white;
+    overflow: hidden;
+    background: white;
+}
+
+.client .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 20%; 
+    transform: scale(1.15);      
+} */
+ .client .img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: -80px auto 10px;
+    border: 4px solid white;
+    overflow: hidden;
+    background: white;
+}
+
+.client .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.client h3{
+    margin: 8px 0 4px;
+    font-size: 1.05em;
+}
+
+.client .role{
+    font-size: 0.85em;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.client .quote{
+    font-size: 50px;
+    color: #1da1f2;
+    height: 35px;
+    margin: 5px 0;
+}
+
+/* ===== Review Content ===== */
+
+.client .big-text{
+    font-size: 0.95em;
+    color: #555;
+    margin: 8px 0 12px;
+    line-height: 1.4;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* ===== Rating ===== */
+
+.client .rating{
+    color: #1da1f2;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+/* ===== Responsive ===== */
+
+/* @media (max-width: 900px) {
+    .Reviews{
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .client{
+        width: 85%;
+    }
+} */
+/*---------*/
+.footer {
+     background-color: #000; 
+     color: #fff;
+      display: flex;
+       justify-content: space-around;
+        padding: 40px 20px; 
+        margin: auto; 
+        width: 97%;
+} 
+     
+.footer div {
+     width: 30%; 
+}
+ .footer h3 {
+     margin-bottom: 10px; 
+     font-size: 20px; 
+     border-bottom: 2px solid #fff; 
+     padding-bottom: 5px;
+} 
+.footer p {
+     font-size: 14px;
+      line-height: 1.6;
+ } 
+  .social-icons {
+     margin-top: 10px; 
+} 
+.social-icons a {
+     margin-right: 10px; 
+     text-decoration: none; 
+     color: #fff; 
+     font-size: 16px;
+ } 
+  .main { 
+    background-color: #add8e6;
+     text-align: center;
+      padding: 100px 20px; 
+      font-size: 24px; 
+      font-weight: bold;
+ }
